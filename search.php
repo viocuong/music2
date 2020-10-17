@@ -1,10 +1,10 @@
 <?php
     session_start();
-    $_SESSION['user']="cuong"; 
+    $_SESSION['user']="huy"; 
     $html="";
-    if( array_key_exists( "content", $_GET ) && $_GET[ 'content' ] != NULL ) {
+    if( array_key_exists( "key", $_GET ) && $_GET[ 'key' ] != NULL ) {
         // Feedback for end user
-        $html .= '<pre>Hello ' . $_GET['content'] . '</pre>';
+        $html .= '<pre>Hello ' . $_GET['key'] . '</pre>';
     }
     
 ?>
