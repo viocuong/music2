@@ -37,7 +37,7 @@
     ?>
 </head>
 
-<body class="Login pb-5 mb-5" style="background: linear-gradient((#32e0c4, #ccf6c8));background-repeat: no-repeat;">
+<body class="Login pb-5 mb-5" style="background: linear-gradient(#32e0c4, #ccf6c8);background-repeat: no-repeat;">
     <!---Header------------------------------------------------------------------------------------------------------->
     <header class="d-flex bg-gradient flex-sm-row justify-content-center p-2">
 
